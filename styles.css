@@ -1332,3 +1332,30 @@ body::before {
     ::-webkit-scrollbar {
         display: none;
     }
+
+/* Ép giao diện chuyển sang Tone Sáng (Light Mode) chuyên nghiệp */
+body, .page {
+    background-color: #f4f7fa !important; /* Nền xám trắng dịu mắt */
+    color: #2d3748 !important; /* Chữ màu xám đen dễ đọc */
+}
+
+/* Biến các khối (Cards) thành màu trắng nổi bật */
+.card, .about-card, .project-card, .profile-card {
+    background: #ffffff !important;
+    border: 1px solid #e2e8f0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03) !important;
+}
+
+/* Đổi màu chữ tiêu đề sang xanh thẫm quyền lực */
+h1, h2, h3, .text-gradient {
+    color: #1a365d !important; 
+    background: none !important; /* Tắt hiệu ứng màu gradient tối */
+    -webkit-text-fill-color: initial !important;
+}
+
+/* Hiệu ứng lưới (Grid) mờ mờ liên quan đến bản đồ tuyến đường vận chuyển */
+.grid-bg {
+    background-image: linear-gradient(to right, #e2e8f0 1px, transparent 1px),
+                      linear-gradient(to bottom, #e2e8f0 1px, transparent 1px) !important;
+    opacity: 0.6 !important;
+}
