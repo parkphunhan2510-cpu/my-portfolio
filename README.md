@@ -2,7 +2,7 @@
 
 ## Giới thiệu
 
-`Tzz Portfolio` là website hồ sơ kỹ thuật số được xây dựng dành cho môn học **Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo** tại **Đại học Công nghệ - ĐHQGHN**.
+`Tzz Portfolio` là website hồ sơ kỹ thuật số được xây dựng dành cho môn học **Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo** tại **Đại học Kinh tế - ĐHQGHN**.
 
 Portfolio này trình bày:
 - Giới thiệu cá nhân và định hướng nghề nghiệp
@@ -51,13 +51,13 @@ Portfolio hướng tới mục tiêu:
 
 ## Tác giả
 
-- **Phan Văn Tuyến**
-- Sinh viên Khoa học Máy tính, Đại học Công nghệ - ĐHQGHN
-- Email: `25022006@vnu.edu.vn`
+- **Lê Thị Ngọc Anh **
+- Sinh viên Khoa Kinh tế & Kinh doanh quốc tế, Đại học Kinh tế - ĐHQGHN
+- Email: `25051097@vnu.edu.vn`
 
 ## Bản quyền
 
-© 2026 Phan Văn Tuyến. Tất cả nội dung liên quan đến Portfolio này được xây dựng cho mục đích học tập và minh họa năng lực cá nhân.
+© 2026 Le Thi Ngoc Anh. Tất cả nội dung liên quan đến Portfolio này được xây dựng cho mục đích học tập và minh họa năng lực cá nhân.
 
 
 
