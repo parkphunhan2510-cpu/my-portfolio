@@ -12,6 +12,68 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <!-- ÉP GIAO DIỆN SÁNG PHONG CÁCH LOGISTICS & SUPPLY CHAIN -->
+<style>
+    /* 1. Nền trang trắng xám thanh lịch, xóa sạch lưới neon tối */
+    html, body, .page, main, #app, .grid-bg, .main-container, [class*="bg"] {
+        background-color: #f3f4f6 !important;
+        background: #f3f4f6 !important;
+        background-image: none !important;
+        color: #1f2937 !important;
+    }
+
+    /* 2. Khung nội dung trắng tinh tế, bo góc nhẹ giống các app quản lý vận đơn */
+    .card, .about-card, .project-card, .profile-card, section, div[class*="card"] {
+        background: #ffffff !important;
+        background-color: #ffffff !important;
+        border: 1px solid #e5e7eb !important;
+        border-top: 5px solid #1e3a8a !important; /* Viền xanh thẫm thương hiệu vận tải */
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05) !important;
+        backdrop-filter: none !important;
+    }
+
+    /* 3. Tên riêng và tiêu đề đổi sang màu xanh Logistics quyền lực */
+    h1, .hero-content h1, .text-gradient, [class*="title"] {
+        color: #1e3a8a !important; 
+        background: none !important;
+        -webkit-text-fill-color: #1e3a8a !important;
+        text-shadow: none !important;
+    }
+    h2, h3, h4, h5, h6, .logo {
+        color: #0f172a !important;
+        background: none !important;
+        -webkit-text-fill-color: #0f172a !important;
+    }
+
+    /* 4. Sửa thông tin trường lớp, MSSV sang màu chữ tối rõ ràng */
+    .profile-info, p, span, li, td, th {
+        color: #374151 !important;
+    }
+
+    /* 5. Biến các nút bấm thành màu Cam Vận Chuyển (Tạo điểm nhấn tốc độ hỏa tốc) */
+    button, .btn, .button, a[class*="btn"], [class*="button"], a.btn {
+        background: #ea580c !important; 
+        color: #ffffff !important;
+        border: none !important;
+        border-radius: 6px !important;
+        box-shadow: 0 4px 6px -1px rgba(234, 88, 12, 0.3) !important;
+        text-shadow: none !important;
+        font-weight: 600 !important;
+    }
+
+    /* 6. Xóa bỏ hoàn toàn vòng tròn phát sáng neon (Glow) quanh ảnh avt của bạn */
+    .profile-image, .avatar-wrapper, img, [class*="avatar"] {
+        border: 4px solid #ffffff !important;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1) !important;
+        animation: none !important;
+        background: #ffffff !important;
+    }
+
+    /* 7. Ẩn nút Dark Mode ở góc phải để giao diện đồng bộ tuyệt đối */
+    [class*="theme"], [class*="mode"], .theme-toggle, button:has(.fa-moon) {
+        display: none !important;
+    }
+</style>
 </head>
 
 <body>
