@@ -1333,56 +1333,62 @@ body::before {
         display: none;
     }
 /* ===================================================
-   BẢN ĐÈ GIAO DIỆN: CHUYỂN SANG TONE SÁNG CÔNG SỞ / LOGISTICS
+   GIAO DIỆN PHONG CÁCH LOGISTICS & SUPPLY CHAIN
    =================================================== */
 
-/* 1. Ép nền toàn trang thành màu trắng xám nhẹ, xóa sạch lưới ô vuông tối */
-html, body, .page, main, #app, .grid-bg, [class*="bg"], [class*="body"], .main-container {
-    background-color: #f8fafc !important; 
-    background: #f8fafc !important;
-    background-image: none !important; 
-    color: #1e293b !important; 
+/* 1. Nền trang trắng xám thanh lịch, xóa sạch lưới neon cũ */
+html, body, .page, main, #app, .grid-bg, .main-container {
+    background-color: #f3f4f6 !important;
+    background: #f3f4f6 !important;
+    background-image: none !important;
+    color: #1f2937 !important;
 }
 
-/* 2. Biến các khung nội dung (Cards) thành màu trắng tinh tế, đổ bóng nhẹ */
-.card, .about-card, .project-card, .profile-card, .hero-content, section, div[class*="card"], fieldset {
+/* 2. Khung nội dung trắng tinh tế, bo góc nhẹ giống các app quản lý vận đơn */
+.card, .about-card, .project-card, .profile-card, section, div[class*="card"] {
     background: #ffffff !important;
     background-color: #ffffff !important;
-    border: 1px solid #e2e8f0 !important;
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.03) !important;
-    backdrop-filter: none !important; 
+    border: 1px solid #e5e7eb !important;
+    border-top: 4px solid #1e3a8a !important; /* Tạo điểm nhấn viền xanh thẫm phía trên */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05) !important;
+    backdrop-filter: none !important;
 }
 
-/* 3. Đổi chữ tiêu đề thành màu Xanh Đen và tên riêng thành Xanh Dương Quyền Lực */
-h1, h2, h3, h4, h5, h6, .text-gradient, [class*="title"], .logo, #logo {
-    color: #0f172a !important; 
+/* 3. Tên riêng và tiêu đề đổi sang màu xanh Logistics quyền lực */
+h1, .hero-content h1, .text-gradient {
+    color: #1e3a8a !important; /* Blue Logistics */
     background: none !important;
-    -webkit-text-fill-color: #0f172a !important; 
-    text-shadow: none !important; 
-}
-h1, .hero-content h1 {
-    color: #1e40af !important; /* Màu xanh Royal Blue chuyên nghiệp */
-    -webkit-text-fill-color: #1e40af !important;
-}
-
-/* 4. Định hình lại các nút bấm (Xem dự án, Tổng kết) thành màu xanh phẳng, xóa viền phát sáng */
-button, .btn, .button, a[class*="btn"], .nav-link, [class*="button"], a.btn {
-    background: #2563eb !important; 
-    color: #ffffff !important;
-    border: none !important;
-    box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.2) !important;
+    -webkit-text-fill-color: #1e3a8a !important;
     text-shadow: none !important;
 }
-
-/* 5. Xóa bỏ hoàn toàn vòng tròn phát sáng neon (Glow) quanh ảnh đại diện */
-.profile-image, [class*="avatar"], img, .avatar-wrapper {
-    border: 4px solid #ffffff !important;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
-    animation: none !important; 
-    background: #ffffff !important;
+h2, h3, h4, h5, h6, [class*="title"], .logo {
+    color: #0f172a !important;
+    background: none !important;
+    -webkit-text-fill-color: #0f172a !important;
 }
 
-/* 6. Ẩn luôn nút chuyển Dark Mode ở góc trên để giao diện đồng bộ tuyệt đối */
+/* 4. Biến các nút bấm thành màu Cam Vận Chuyển (Tạo điểm nhấn tốc độ) */
+button, .btn, .button, a[class*="btn"], [class*="button"], a.btn {
+    background: #ea580c !important; /* Màu cam hỏa tốc */
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 6px !important;
+    box-shadow: 0 4px 6px -1px rgba(234, 88, 12, 0.3) !important;
+    text-shadow: none !important;
+    font-weight: 600 !important;
+}
+button:hover, .btn:hover {
+    background: #c2410c !important; /* Cam đậm hơn khi di chuột vào */
+}
+
+/* 5. Thay đổi viền phát sáng của ảnh đại diện thành vòng tròn trắng sang trọng */
+.profile-image, .avatar-wrapper, img, [class*="avatar"] {
+    border: 4px solid #ffffff !important;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1) !important;
+    animation: none !important;
+}
+
+/* 6. Ẩn nút Dark Mode không cần thiết */
 [class*="theme"], [class*="mode"], .theme-toggle, button:has(.fa-moon) {
     display: none !important;
 }
