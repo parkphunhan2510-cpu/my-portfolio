@@ -8,9 +8,7 @@
     <title>Bài tập 1 | Tzz Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -27,7 +25,6 @@
         <div class="particle"></div>
     </div>
 
-    <!-- NAVIGATION -->
     <nav class="navbar" id="navbar">
         <div class="nav-container">
             <a class="nav-logo" href="index.html">Tzz Portfolio</a>
@@ -39,12 +36,10 @@
                 <li><a class="nav-link" href="projects.html">My Projects</a></li>
                 <li><a class="nav-link" href="summary.html">Tổng Kết</a></li>
             </ul>
-            <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="Dark / Light Mode"
-                title="Dark / Light Mode">🌙</button>
+            <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="Dark / Light Mode" title="Dark / Light Mode">🌙</button>
         </div>
     </nav>
 
-    <!-- PAGE CONTENT -->
     <div class="page">
         <div class="container">
             <div class="detail-header">
@@ -52,10 +47,14 @@
                 <div class="detail-header-row">
                     <div class="detail-header-left">
                         <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 16px;">
-                            <span class="project-badge bt1" style="margin-bottom: 0;">Bài tập 1 · Mục 1.4</span
-                <a href="https://drive.google.com/file/d/1tBBHi8essaKFcVf90w_aA-NAhEYrJiNK/view?usp=sharing"_blank&v=999" class="detail-pdf-btn" style="padding: 6px 16px; font-size: 0.9rem;">
-            📄 Tải file PDF bài tập
-        </a>
+                            <span class="project-badge bt1" style="margin-bottom: 0;">Bài tập 1 · Mục 1.4</span>
+
+                            <a href="https://drive.google.com/file/d/1tBBHi8essaKFcVf90w_aA-NAhEYrJiNK/view?usp=sharing&v=202607" 
+                               target="_blank" 
+                               class="detail-pdf-btn" 
+                               style="padding: 6px 16px; font-size: 0.9rem;">
+                                📄 Tải file PDF bài tập
+                            </a>
                         </div>
                         <h1 class="detail-title">Máy tính và các thiết bị ngoại vi</h1>
                         <p style="color: var(--text-secondary); font-size: 1.05rem; margin-top: 8px;">
@@ -70,7 +69,6 @@
                 </div>
             </div>
 
-            <!-- Objective -->
             <div class="objective-card animate-on-scroll">
                 <h3>🎯 Mục tiêu bài tập</h3> 
                 <p>
@@ -80,7 +78,6 @@
                 </p>
             </div>
 
-            <!-- Content: Detailed 12 Steps -->
             <div class="content-block animate-on-scroll">
                 <h2><span class="block-icon">📝</span> Nhật ký 12 bước thực hành chi tiết</h2>
                 <p>
@@ -88,48 +85,21 @@
                     tuần tự như sau:
                 </p>
                 <ol>
-                    <li><strong>Mở File Explorer:</strong> Sử dụng tổ hợp phím <code>Windows + E</code> để khởi chạy
-                        nhanh trình quản lý tệp tin của hệ thống.</li>
-                    <li><strong>Truy cập ổ đĩa/thư mục:</strong> Di chuyển đến ổ đĩa <code>D:</code> (hoặc thư mục
-                        <code>Documents</code> nếu hệ thống chỉ có một ổ đĩa duy nhất) để tạo không gian làm việc.
-                    </li>
-                    <li><strong>Tạo thư mục chính:</strong> Nhấp chuột phải vào vùng trống, chọn
-                        <code>New -> Folder</code> và đặt tên thư mục gốc là <code>ThucHanh_Le Thi Ngoc Anh </code> (MSSV:
-                        25051097).
-                    </li>
-                    <li><strong>Vào thư mục:</strong> Nhấp đúp chuột để mở thư mục <code>ThucHanh_Le Thi Ngoc Anh</code>
-                        vừa tạo.</li>
-                    <li><strong>Tạo tệp văn bản:</strong> Nhấp chuột phải chọn <code>New -> Text Document</code> và đặt
-                        tên tệp là <code>GhiChu.txt</code>.</li>
-                    <li><strong>Đổi tên tệp:</strong> Nhấp chuột phải vào tệp <code>GhiChu.txt</code>, chọn biểu tượng
-                        <code>Rename</code> (hoặc phím F2) và đổi tên thành <code>GhiChuQuanTrong.txt</code>.
-                    </li>
-                    <li><strong>Tạo thư mục con:</strong> Tạo tiếp một thư mục con nằm bên trong thư mục gốc và đặt tên
-                        là <code>TaiLieu</code>.</li>
-                    <li><strong>Sao chép tệp tin (Copy & Paste):</strong> Nhấp chuột phải vào tệp
-                        <code>GhiChuQuanTrong.txt</code> chọn <code>Copy</code> (Ctrl + C), mở thư mục
-                        <code>TaiLieu</code> ra, nhấp chuột phải chọn <code>Paste</code> (Ctrl + V) để tạo bản sao.
-                    </li>
-                    <li><strong>Di chuyển tệp tin (Cut & Paste):</strong> Quay lại thư mục gốc, tạo tệp mới tên là
-                        <code>DiChuyen.txt</code>. Nhấp chuột phải chọn <code>Cut</code> (Ctrl + X), mở thư mục
-                        <code>TaiLieu</code> và chọn <code>Paste</code> (Ctrl + V). Tệp gốc sẽ biến mất ở thư mục ngoài
-                        và chuyển vào trong thư mục con <code>TaiLieu</code>.
-                    </li>
-                    <li><strong>Xóa tệp tin (Delete):</strong> Trong thư mục <code>TaiLieu</code>, nhấp chuột phải vào
-                        tệp <code>GhiChuQuanTrong.txt</code> chọn <code>Delete</code>. Tệp này sẽ bị đưa vào Thùng rác
-                        (Recycle Bin) của hệ thống.</li>
-                    <li><strong>Xóa vĩnh viễn (Permanent Delete):</strong> Chọn tệp <code>DiChuyen.txt</code> trong thư
-                        mục <code>TaiLieu</code>, nhấn giữ tổ hợp phím <code>Shift + Delete</code>, chọn
-                        <code>Yes</code> trên hộp thoại xác nhận để xóa vĩnh viễn tệp khỏi ổ cứng mà không qua Thùng
-                        rác.
-                    </li>
-                    <li><strong>Khôi phục từ Thùng rác (Restore):</strong> Mở biểu tượng Recycle Bin trên Desktop, tìm
-                        tệp <code>GhiChuQuanTrong.txt</code> vừa xóa, nhấp chuột phải chọn <code>Restore</code> để khôi
-                        phục tệp về vị trí thư mục gốc ban đầu.</li>
+                    <li><strong>Mở File Explorer:</strong> Sử dụng tổ hợp phím <code>Windows + E</code> để khởi chạy nhanh trình quản lý tệp tin của hệ thống.</li>
+                    <li><strong>Truy cập ổ đĩa/thư mục:</strong> Di chuyển đến ổ đĩa <code>D:</code> (hoặc thư mục <code>Documents</code> nếu hệ thống chỉ có một ổ đĩa duy nhất) để tạo không gian làm việc.</li>
+                    <li><strong>Tạo thư mục chính:</strong> Nhấp chuột phải vào vùng trống, chọn <code>New -> Folder</code> và đặt tên thư mục gốc là <code>ThucHanh_Le Thi Ngoc Anh </code> (MSSV: 25051097).</li>
+                    <li><strong>Vào thư mục:</strong> Nhấp đúp chuột để mở thư mục <code>ThucHanh_Le Thi Ngoc Anh</code> vừa tạo.</li>
+                    <li><strong>Tạo tệp văn bản:</strong> Nhấp chuột phải chọn <code>New -> Text Document</code> và đặt tên tệp là <code>GhiChu.txt</code>.</li>
+                    <li><strong>Đổi tên tệp:</strong> Nhấp chuột phải vào tệp <code>GhiChu.txt</code>, chọn biểu tượng <code>Rename</code> (hoặc phím F2) và đổi tên thành <code>GhiChuQuanTrong.txt</code>.</li>
+                    <li><strong>Tạo thư mục con:</strong> Tạo tiếp một thư mục con nằm bên trong thư mục gốc và đặt tên là <code>TaiLieu</code>.</li>
+                    <li><strong>Sao chép tệp tin (Copy & Paste):</strong> Nhấp chuột phải vào tệp <code>GhiChuQuanTrong.txt</code> chọn <code>Copy</code> (Ctrl + C), mở thư mục <code>TaiLieu</code> ra, nhấp chuột phải chọn <code>Paste</code> (Ctrl + V) để tạo bản sao.</li>
+                    <li><strong>Di chuyển tệp tin (Cut & Paste):</strong> Quay lại thư mục gốc, tạo tệp mới tên là <code>DiChuyen.txt</code>. Nhấp chuột phải chọn <code>Cut</code> (Ctrl + X), mở thư mục <code>TaiLieu</code> và chọn <code>Paste</code> (Ctrl + V). Tệp gốc sẽ biến mất ở thư mục ngoài và chuyển vào trong thư mục con <code>TaiLieu</code>.</li>
+                    <li><strong>Xóa tệp tin (Delete):</strong> Trong thư mục <code>TaiLieu</code>, nhấp chuột phải vào tệp <code>GhiChuQuanTrong.txt</code> chọn <code>Delete</code>. Tệp này sẽ bị đưa vào Thùng rác (Recycle Bin) của hệ thống.</li>
+                    <li><strong>Xóa vĩnh viễn (Permanent Delete):</strong> Chọn tệp <code>DiChuyen.txt</code> trong thư mục <code>TaiLieu</code>, nhấn giữ tổ hợp phím <code>Shift + Delete</code>, chọn <code>Yes</code> trên hộp thoại xác nhận để xóa vĩnh viễn tệp khỏi ổ cứng mà không qua Thùng rác.</li>
+                    <li><strong>Khôi phục từ Thùng rác (Restore):</strong> Mở biểu tượng Recycle Bin trên Desktop, tìm tệp <code>GhiChuQuanTrong.txt</code> vừa xóa, nhấp chuột phải chọn <code>Restore</code> để khôi phục tệp về vị trí thư mục gốc ban đầu.</li>
                 </ol>
             </div>
 
-            <!-- Content: Folder Structure -->
             <div class="content-block animate-on-scroll">
                 <h2><span class="block-icon">📁</span> Cấu trúc thư mục tối ưu đã thiết lập</h2>
                 <p>
@@ -155,7 +125,6 @@
                 </div>
             </div>
 
-            <!-- Content: Naming Convention -->
             <div class="content-block animate-on-scroll">
                 <h2><span class="block-icon">🏷️</span> Quy tắc đặt tên tệp</h2>
                 <p>
@@ -195,16 +164,12 @@
                 </table>
 
                 <div class="screenshot-area" style="margin-top: 24px; padding: 24px;">
-                    <img src="minh-chung-moi.png" alt="Minh chứng thực hành quản lý tệp"
-                        style="max-width: 100%; border-radius: 12px; border: 1px solid var(--border-color); box-shadow: 0 8px 32px rgba(0,0,0,0.2); display: block; margin: 0 auto 16px;">
-                    <p style="margin-bottom: 4px; color: var(--text-secondary); font-weight: 500;">Minh chứng thực hành
-                        quản lý tệp trên máy tính</p>
-                    <p style="font-size: 0.82rem; color: var(--text-muted); margin-bottom: 0;">Hình ảnh thực tế cấu trúc
-                        thư mục <code>UEB</code> được tổ chức ngăn nắp trên máy tính cá nhân.</p>
+                    <img src="minh-chung-moi.png" alt="Minh chứng thực hành quản lý tệp" style="max-width: 100%; border-radius: 12px; border: 1px solid var(--border-color); box-shadow: 0 8px 32px rgba(0,0,0,0.2); display: block; margin: 0 auto 16px;">
+                    <p style="margin-bottom: 4px; color: var(--text-secondary); font-weight: 500;">Minh chứng thực hành quản lý tệp trên máy tính</p>
+                    <p style="font-size: 0.82rem; color: var(--text-muted); margin-bottom: 0;">Hình ảnh thực tế cấu trúc thư mục <code>UEB</code> được tổ chức ngăn nắp trên máy tính cá nhân.</p>
                 </div>
             </div>
 
-            <!-- Content: Lessons Learned -->
             <div class="content-block animate-on-scroll">
                 <h2><span class="block-icon">💭</span> Bài học rút ra</h2>
                 <p>
@@ -216,7 +181,6 @@
         </div>
     </div>
 
-    <!-- FOOTER -->
     <footer class="footer">
         <div class="container">
             <p>© 2026 Le Thi Ngoc Anh · Đại học Kinh tế – ĐHQGHN · Nhập môn Công nghệ số &amp; AI</p>
