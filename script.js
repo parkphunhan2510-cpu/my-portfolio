@@ -48,7 +48,6 @@ function updateThemeIcon(theme) {
     if (btn) {
         btn.innerHTML = theme === 'light' 
             ? '<span>☀️</span><span>Light Mode</span>' 
-            : '<span>🌙</span><span>Dark Mode</span>';
     }
 }
 
